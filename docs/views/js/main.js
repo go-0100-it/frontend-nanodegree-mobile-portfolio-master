@@ -548,5 +548,5 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("movingPizzas1").appendChild(elem);
     }
     items = document.getElementsByClassName('mover');
-    //updatePositions();
+    updatePositions();
 });
