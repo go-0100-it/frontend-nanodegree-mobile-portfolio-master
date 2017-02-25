@@ -41,20 +41,68 @@ The next section briefly describes the changes I made to each file, the reasonin
 ## docs/index.html
 * [removed link to google fonts](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/4e66acc5be123eab68b02f9ff4dce4396a520f39) to increase page load speed by reducing the number of critical assets.
     * Pagespeed screenshot
+        * [before](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
+        * [after](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/remove-fonts.png)
+    * Timeline screenshot
+        * [before]()
+        * [after]()
+* [added media print attribute](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b5166d91ed607a43e176f38cb4279960154fc04) to print.css so browser only loads this file @ print request.
+    * Pagespeed screenshot
         * [before]()
         * [after]()
     * Timeline screenshot
         * [before]()
         * [after]()
-* [added media print attribute](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b5166d91ed607a43e176f38cb4279960154fc04) to print.css so browser only loads this file @ print request.
 * [inlined style.css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b162585ce944eee45d1ccf2c05645263939443c) to head section of index.html file to prevent render blocking.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 * [added class attributes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/ac71d65e25e245c2ee2474656749f7589668fde0) to html elements and [modified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/559d16d0fd21539e21087b8f92dc5c2c570c7bc8) to reference classes instead of tags to improve render time.
-* [minified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/60b3f8b28c99db25f823cca20793b0a4ee905877) to reduce file size.
 * [refactored and removed css styles](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/689c0c6a536943536f09fb785fef12b3fa61fd5d) from inlined style.css not pertinate to index.html to reduce file size.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
+* [minified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/60b3f8b28c99db25f823cca20793b0a4ee905877) to reduce file size.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 * moved small screen media css from style.css to a new file *small-screen.css* and [added media max-width attribute to link tag](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/22090fe4bd832fe426d81d33262230208528ef24) so browser only loads this if screen width is less than 481px, this improves above the fold load.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 * [removed the list item img tags](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222) and replaced them with divs with ids for reference.&nbsp; Added corresponding css attributes for background images to inlined css.&nbsp; This improves the above the fold load.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 * [added async attribute]() to analytics.js to prevent render blocking.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 * added links to top of head to [preload image files](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/82230f27fe775a4e131b128636d8bb899e251243).&nbsp; This makes use browser idle time.
+    * Pagespeed screenshot
+        * [before]()
+        * [after]()
+    * Timeline screenshot
+        * [before]()
+        * [after]()
 
 <a id="docs/views/pizza.html"></a>
 
