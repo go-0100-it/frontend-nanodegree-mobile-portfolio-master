@@ -4,7 +4,7 @@ Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobi
 This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884).  It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
 
 I modified the following files, follow the links to view changes.
-* ### HTML
+* **HTML**
     * [docs/index.html](#contact_form)
     * [docs/views/pizza.html]()
     * [docs/project-2048.html]()
