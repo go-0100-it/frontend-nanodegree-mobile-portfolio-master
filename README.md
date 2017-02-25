@@ -5,7 +5,7 @@ This website was created by Cameron Pittman as a final project for Udacity's cou
 
 I modified the following files, follow the links to view changes.
 * **HTML**
-    * [docs/index.html](#contact_form)
+    * [docs/index.html](#docs/index.html)
     * [docs/views/pizza.html]()
     * [docs/project-2048.html]()
     * [docs/project-mobile.html]()
@@ -30,7 +30,7 @@ I modified the following files, follow the links to view changes.
 The next section briefly describes the changes I made to each file and the reasoning behind each change.
 <br></br>
 
-<a id="contact_form"></a>
+<a id="docs/index.html"></a>
 
 ## Changes to **docs/index.html**
 * [inlined style.css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b162585ce944eee45d1ccf2c05645263939443c) to head section of index.html file to prevent render blocking.
