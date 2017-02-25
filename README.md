@@ -6,21 +6,21 @@ This website was created by Cameron Pittman as a final project for Udacity's cou
 As per the project outline I only needed to improve pagespeed score for index.html and achieve 60fps with pizza.html but thought, for practice I would improve page speed scores for all the pages in this site.  
 
 I modified the following files, follow the links to view changes.  
-* [**HTML**]()
+* [**HTML**](#html-files)
     * [docs/index.html](#docs/index.html)
     * [docs/views/pizza.html](#docs/views/pizza.html)
     * [docs/project-2048.html](#docs/project-2048.html)
     * [docs/project-mobile.html](#docs/project-mobile.html)
     * [docs/project-webperf.html](#docs/project-webperf.html)
-* [**CSS**]()
+* [**CSS**](#css-files)
     * [docs/css/print.css](#docs/css/print.css)
     * [docs/css/style.css](#docs/css/style.css)
     * [docs/views/css/bootstrap-grid.css](#docs/views/css/bootstrap-grid.css)
     * [docs/views/css/style.css](#docs/views/css/style.css)
-* [**JS**]()
+* [**JS**](#js-files)
     * [docs/js/perfmatters.js](#docs/js/perfmatters.js)
     * [docs/views/js/main.js](#docs/views/js/main.js)
-* [**IMAGES**]()
+* [**IMAGES**](#image-files)
     * [docs/views/images/pizzeria.jpg](#docs/views/images/pizzeria.jpg)
     * [docs/views/images/pizza.png](#docs/views/images/pizza.png)
     * [docs/img/2048.png](#docs/img/2048.png)
@@ -33,7 +33,7 @@ I modified the following files, follow the links to view changes.
 <br></br>
 The next section briefly describes the changes I made to each file, the reasoning behind each change and has links to the corresponding commits.
 <br></br>
-
+<a id="html-files"></a>
 # Changes made to the HTML files
 
 <a id="docs/index.html"></a>
@@ -83,6 +83,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 
 <br></br>
+<a id="css-files"></a>
 # Changes made to the CSS files
 
 <a id="docs/css/print.css"></a>
@@ -120,6 +121,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 
 <br></br>
+<a id="js-files"></a>
 # Changes made to the JS files
 
 <a id="docs/js/perfmatters.js"></a>
@@ -140,6 +142,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 
 <br></br>
+<a id="image-files"></a>
 # Changes made to the IMAGE files
 
 <a id="docs/views/images/pizzeria.jpg"></a>
