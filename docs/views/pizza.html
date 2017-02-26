@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <link rel="preload" href="js/main.min.js">
     <link rel="preload" href="css/bootstrap-grid.css">
     <style>
         * {
@@ -9,30 +10,30 @@
             -moz-box-sizing: border-box;
             -box-sizing: border-box;
         }
-        
+
         body {
             font-family: "Trebuchet MS", Helvetica, sans-serif;
             background: black;
         }
-        
+
         input {
             background: grey;
             font-size: 18px;
         }
-        
+
         form {
             display: inline-block;
         }
-        
+
         .centered {
             text-align: center;
         }
-        
+
         #pizzaSize {
             font-weight: 800;
         }
         /** Added "will-change: left" to give the browser a heads-up that this attribute will be changing. By adding this the browser created new layer for each element with the "mover" class and allows the browser to only have to repaint the elements that have changed. */
-        
+
         .mover {
             position: fixed;
             width: 256px;
@@ -40,18 +41,18 @@
             will-change: left;
             backface-visibility: hidden;
         }
-        
+
         .randomPizzaContainer {
             float: left;
             display: flex;
         }
-        
+
         .randomPizzaContainer:after {
             content: "";
             display: table;
             clear: both;
         }
-        
+
         .container {
             background-color: rgba(240, 60, 60, 0.8);
         }
