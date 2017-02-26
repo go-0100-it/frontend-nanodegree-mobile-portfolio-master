@@ -60,16 +60,17 @@ The next section briefly describes the changes I made to each file, the reasonin
 * added links to top of head to [preload image files](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/82230f27fe775a4e131b128636d8bb899e251243).&nbsp; This makes use browser idle time.
 
 * finally, [minified file]() to decrease size.
+<br></br>
 
 ## `index.html` pagespeed test results before changes
 
 ![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
-
+<br></br>
 ## `index.html` pagespeed test results after changes
 
 ![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
   
-
+<hr>
 <a id="docs/views/pizza.html"></a>
 
 ## [`docs/views/pizza.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/pizza.html)
