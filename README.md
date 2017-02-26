@@ -21,13 +21,6 @@ I modified the following files, follow the links to view changes.
 * [**JS**](#js-files)
     * [`docs/js/perfmatters.js`](#docs/js/perfmatters.js)
     * [`docs/views/js/main.js`](#docs/views/js/main.js)
-* [**IMAGES**](#image-files)
-    * [`docs/views/images/pizzeria.jpg`](#docs/views/images/pizzeria.jpg)
-    * [`docs/views/images/pizza.png`](#docs/views/images/pizza.png)
-    * [`docs/img/2048.png`](#docs/img/2048.png)
-    * [`docs/img/cam_be_like.jpg`](#docs/img/cam_be_like.jpg)
-    * [`docs/img/mobilewebdev.jpg`](#docs/img/mobilewebdev.jpg)
-    * [`docs/img/profilepic.jpg`](#docs/img/profilepic.jpg)
 * [**FINAL RESULTS**](#final-results)
     * [pagespeed scores](#final-pagespeed-scores)
 <br></br>
@@ -56,6 +49,10 @@ This section briefly describes the changes I made to each file, the reasoning be
 * [minified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/60b3f8b28c99db25f823cca20793b0a4ee905877) to reduce file size.
     
 * moved small screen media css from style.css to a new file `small-screen.css` and [added media max-width attribute to link tag](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/22090fe4bd832fe426d81d33262230208528ef24) so browser only loads this if screen width is less than 481px, this improves above the fold load.
+
+* downloaded and added `project-2048.jpg`, `project-mobile.jpg`, and `project-webperf.jpg` locally so I could optimize them.
+
+* optimized images to drasticly reduce file size, I used the supplied images optimized by the pagespeed insights page.
     
 * [removed the list item img tags](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222) and replaced them with divs with ids for reference.&nbsp; Added corresponding css attributes for background images to inlined css.&nbsp; This improves the above the fold load.
     
@@ -183,9 +180,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/js/perfmatters.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/js/perfmatters.js)
 
-* 
-* 
-* finally, [minified file]() to decrease size.
+* [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/41042db21a2300bc1261b5916a9ea258f9ba14c9) to decrease size.
 <br></br>
 <br></br>
 <hr>
@@ -199,75 +194,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <br></br>
 <br></br>
-<a id="image-files"></a>
-# Changes made to the IMAGE files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
-
-<a id="docs/views/images/pizzeria.jpg"></a>
-
-## [`docs/views/images/pizzeria.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/images/pizzeria.jpg)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<hr>
-<a id="docs/views/images/pizza.png"></a>
-
-## [`docs/views/images/pizza.png`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/images/pizza.png)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<hr>
-<a id="docs/img/2048.png"></a>
-
-## [`docs/img/2048.png`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/2048.png)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<hr>
-<a id="docs/img/cam_be_like.jpg"></a>
-
-## [`docs/img/cam_be_like.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/cam_be_like.jpg)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<hr>
-<a id="docs/img/mobilewebdev.jpg"></a>
-
-## [`docs/img/mobilewebdev.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/mobilewebdev.jpg)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<hr>
-<a id="docs/img/profilepic.jpg"></a>
-
-## [`docs/img/profilepic.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/profilepic.jpg)
-
-* 
-* 
-* 
-<br></br>
-<br></br>
-<br></br>
 <a id="final-results"></a>
 
 # My Final Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 ## Pagespeed scores
-I managed to do quite well with the pagespeed scores for index.html at **95%-desktop**(*passing 9 of 10 tests*) and **93%-mobile**(*passing 9 of 10 tests*).&nbsp; The only thing keeping me from achieving 100% and passing all 10 tests is the fact I was unable to utilize browser caching.&nbsp; As far as I understand from my research is that github does not offer this feature when hosting your pages/site with them.&nbsp; Since I am using their services and have no control over the backend I was unable to achieve the oh so desirable 100% :smiley:
+I managed to do quite well with the pagespeed scores for `index.html` at **95%-desktop**(*passing 9 of 10 tests*) and **93%-mobile**(*passing 9 of 10 tests*).&nbsp; The only thing keeping me from achieving 100% and passing all 10 tests is the fact I was unable to utilize browser caching.&nbsp; As far as I understand from my research is that github does not offer this feature when hosting your pages/site with them.&nbsp; Since I am using their services and have no control over the backend I was unable to achieve the oh so desirable 100% :smiley:
 
 <a id="final-pagespeed-scores"></a>
 ### Final pagespeed scores
