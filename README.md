@@ -1,11 +1,12 @@
+<a id="top"></a>
 # frontend-nanodegree-mobile-portfolio-master
 Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobile-portfolio).
 
 This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884).&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
 
-As per the project outline I only needed to improve pagespeed score for `index.html` and achieve 60fps with `pizza.html` but thought, for practice I would improve page speed scores for all the pages in this site.  
+As per the project outline I only needed to improve pagespeed score for `index.html` and achieve 60fps with `pizza.html` but, I thought, for practice I would improve page speed scores for all the pages in this site.  
 
-I modified the following files, follow the links to view changes.  
+I modified the following files, follow the links to view changes.
 * [**HTML**](#html-files)
     * [`docs/index.html`](#docs/index.html)
     * [`docs/views/pizza.html`](#docs/views/pizza.html)
@@ -34,7 +35,7 @@ I modified the following files, follow the links to view changes.
 The next section briefly describes the changes I made to each file, the reasoning behind each change and has links to the corresponding commits.
 <br></br>
 <a id="html-files"></a>
-# Changes made to the HTML files
+# Changes made to the HTML files   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/index.html"></a>
 
@@ -62,11 +63,11 @@ The next section briefly describes the changes I made to each file, the reasonin
 * finally, [minified file]() to decrease size.
 <br></br>
 
-## `index.html` pagespeed test results before changes
+### `index.html` pagespeed test results before changes
 
 ![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
 <br></br>
-## `index.html` pagespeed test results after changes
+### `index.html` pagespeed test results after changes
 
 ![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
   
@@ -109,7 +110,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 <br></br>
 <a id="css-files"></a>
-# Changes made to the CSS files
+# Changes made to the CSS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/css/print.css"></a>
 
@@ -147,7 +148,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 <br></br>
 <a id="js-files"></a>
-# Changes made to the JS files
+# Changes made to the JS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/js/perfmatters.js"></a>
 
@@ -168,7 +169,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 <br></br>
 <a id="image-files"></a>
-# Changes made to the IMAGE files
+# Changes made to the IMAGE files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/views/images/pizzeria.jpg"></a>
 
