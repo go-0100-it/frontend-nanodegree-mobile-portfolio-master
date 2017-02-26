@@ -263,6 +263,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <br></br>
 <a id="final-results"></a>
+
 # My Final Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 ## Pagespeed scores
