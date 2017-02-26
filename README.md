@@ -72,8 +72,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 ![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
  <br></br> 
+ <br></br>
 <hr>
-<br></br>
 <a id="docs/views/pizza.html"></a>
 
 ## [`docs/views/pizza.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/pizza.html)
@@ -97,8 +97,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 ![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/pizza/after-html-mods.png)
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/project-2048.html"></a>
 
 ## [`docs/project-2048.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-2048.html)
@@ -107,8 +107,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * finally, [minified file]() to decrease size.
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/project-mobile.html"></a>
 
 ## [`docs/project-mobile.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-mobile.html)
@@ -117,8 +117,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * finally, [minified file]() to decrease size.
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/project-webperf.html"></a>
 
 ## [`docs/project-webperf.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-webperf.html)
@@ -140,8 +140,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * finally, [minified file]() to decrease size. 
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/css/style.css"></a>
 
 ## [`docs/css/style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/css/style.css)
@@ -152,8 +152,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 * moved small screen media css from style.css to a new file *small-screen.css* and [added media max-width attribute to link tag](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/22090fe4bd832fe426d81d33262230208528ef24) so browser only loads this if screen width is less than 481px, this improves above the fold load.
 * removed the list item img tags for index.html and replaced them with divs with ids for reference.&nbsp; [Added corresponding css attributes for background images](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222) to inlined css.&nbsp; This improves the above the fold load.
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/views/css/bootstrap-grid.css"></a>
 
 ## [`docs/views/css/bootstrap-grid.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/bootstrap-grid.css)
@@ -162,8 +162,8 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * finally, [minified file]() to decrease size.
 <br></br>
-<hr>
 <br></br>
+<hr>
 <a id="docs/views/css/style.css"></a>
 
 ## [`docs/views/css/style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/style.css)
@@ -184,10 +184,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * finally, [minified file]() to decrease size.
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/views/js/main.js"></a>
 
 ## [`docs/views/js/main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/js/main.js)
@@ -195,7 +194,6 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * finally, [minified file]() to decrease size. 
-
 <br></br>
 <br></br>
 <br></br>
@@ -209,10 +207,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/views/images/pizza.png"></a>
 
 ## [`docs/views/images/pizza.png`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/images/pizza.png)
@@ -220,10 +217,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/img/2048.png"></a>
 
 ## [`docs/img/2048.png`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/2048.png)
@@ -231,10 +227,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/img/cam_be_like.jpg"></a>
 
 ## [`docs/img/cam_be_like.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/cam_be_like.jpg)
@@ -242,10 +237,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/img/mobilewebdev.jpg"></a>
 
 ## [`docs/img/mobilewebdev.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/mobilewebdev.jpg)
@@ -253,10 +247,9 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
+<br></br>
 <br></br>
 <hr>
-<br></br>
 <a id="docs/img/profilepic.jpg"></a>
 
 ## [`docs/img/profilepic.jpg`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/img/profilepic.jpg)
@@ -264,7 +257,6 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 * 
-
 <br></br>
 <br></br>
 <br></br>
