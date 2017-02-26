@@ -61,13 +61,13 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * finally, [minified file]() to decrease size.
 
-Pagespeed test results before
+## `index.html` pagespeed test results before changes
 
 ![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
 
-Pagespeed test results after
+## `index.html` pagespeed test results after changes
 
-![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
+![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
   
 
 <a id="docs/views/pizza.html"></a>
