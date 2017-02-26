@@ -80,9 +80,22 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * [moved `bootstrap.css` link](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/7ea9b897473a3b960823d47f075fd497f7e6469c) to just above body closing tag and [added preload](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/13c014422b43b9c5deecf4e6210e7d0839036738) just after head tag opening.
 
+* added link to top of head section [preloading `main.min.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/1ad93946a398c39dc1c1c8f80cbcc0d9694eb0db#diff-11c9c8918fc38e223f20c608dd885d75).
+
 * [minified `bootstap.css` and `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/6318964afbc7a9b5730cee1ae3ce0c5a27acb319) to decrease file sizes.
 
 * finally, [minified `pizza.html`]() to decrease file size.
+<br></br>
+
+### `pizza.html` pagespeed test results before changes
+
+![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/initial.png)
+<br></br>
+### `pizza.html` pagespeed test results after changes
+
+![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
+  
+<hr>
 
 <a id="docs/project-2048.html"></a>
 
