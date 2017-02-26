@@ -89,11 +89,11 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 ### `pizza.html` pagespeed test results before changes
 
-![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/initial.png)
+![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/pizza/initial/initial.png)
 <br></br>
 ### `pizza.html` pagespeed test results after changes
 
-![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
+![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/pizza/after-html-mods.png)
   
 <hr>
 
