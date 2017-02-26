@@ -58,15 +58,29 @@ The next section briefly describes the changes I made to each file, the reasonin
 * [added async attribute]() to `analytics.js` to prevent render blocking.
    
 * added links to top of head to [preload image files](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/82230f27fe775a4e131b128636d8bb899e251243).&nbsp; This makes use browser idle time.
-    
+
+* finally, [minified file]() to decrease size.
+
+Pagespeed test results before
+
+![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
+
+Pagespeed test results after
+
+![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
+  
 
 <a id="docs/views/pizza.html"></a>
 
 ## [`docs/views/pizza.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/pizza.html)
 
-* 
-* 
-* 
+* [inlined css from `style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/17cead1bc33fcd179e361132569e6e7da289998b) to decrease critical assets.
+
+* [moved `bootstrap.css` link](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/7ea9b897473a3b960823d47f075fd497f7e6469c) to just above body closing tag and [added preload](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/13c014422b43b9c5deecf4e6210e7d0839036738) just after head tag opening.
+
+* [minified `bootstap.css` and `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/6318964afbc7a9b5730cee1ae3ce0c5a27acb319) to decrease file sizes.
+
+* finally, [minified `pizza.html`]() to decrease file size.
 
 <a id="docs/project-2048.html"></a>
 
@@ -74,7 +88,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size.
 
 <a id="docs/project-mobile.html"></a>
 
@@ -82,7 +96,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size.
 
 <a id="docs/project-webperf.html"></a>
 
@@ -90,7 +104,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size. 
 
 <br></br>
 <a id="css-files"></a>
@@ -102,7 +116,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size. 
 
 <a id="docs/css/style.css"></a>
 
@@ -120,7 +134,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size.
 
 <a id="docs/views/css/style.css"></a>
 
@@ -140,7 +154,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size.
 
 
 <a id="docs/views/js/main.js"></a>
@@ -149,7 +163,7 @@ The next section briefly describes the changes I made to each file, the reasonin
 
 * 
 * 
-* 
+* finally, [minified file]() to decrease size. 
 
 <br></br>
 <a id="image-files"></a>
