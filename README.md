@@ -175,6 +175,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <br></br>
 <a id="js-files"></a>
+
 # Changes made to the JS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/js/perfmatters.js"></a>
