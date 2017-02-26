@@ -237,6 +237,7 @@ I managed to do quite well with the pagespeed scores for index.html at **95%-des
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2F)*
     * *[timeline]()*
+    
 ### **`pizza.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
@@ -244,6 +245,7 @@ I managed to do quite well with the pagespeed scores for index.html at **95%-des
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fviews%2Fpizza.min.html&tab=desktop)*
     * *[timeline]()*
+    
 ### **`project-2048.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
@@ -251,6 +253,7 @@ I managed to do quite well with the pagespeed scores for index.html at **95%-des
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fproject-2048.html&tab=desktop)*
     * *[timeline]()*
+    
 ### **`project-mobile.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
@@ -258,6 +261,7 @@ I managed to do quite well with the pagespeed scores for index.html at **95%-des
 * **After** Optimization
     * *[pagespeed insights]()*
     * *[timeline]()*
+    
 ### **`project-webperf.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
