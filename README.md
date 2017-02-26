@@ -219,10 +219,10 @@ The next section briefly describes the changes I made to each file, the reasonin
 * 
 * 
 
-<a id="final-results"></a>
 
 <br></br>
-# My Final Results
+<a id="final-results"></a>
+# My Final Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 ## Pagespeed scores
 I managed to do quite well with the pagespeed scores for index.html at **95%-desktop**(*passing 9 of 10 tests*) and **93%-mobile**(*passing 9 of 10 tests*).&nbsp; The only thing keeping me from achieving 100% and passing all 10 tests is the fact I was unable to utilize browser caching.&nbsp; As far as I understand from my research is that github does not offer this feature when hosting your pages/site with them.&nbsp; Since I am using their services and have no control over the backend I was unable to achieve the oh so desirable 100% :smiley:
