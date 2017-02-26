@@ -30,11 +30,11 @@ I modified the following files, follow the links to view changes.
     * [`docs/img/profilepic.jpg`](#docs/img/profilepic.jpg)
 * [**FINAL RESULTS**](#final-results)
     * [pagespeed scores](#final-pagespeed-scores)
+<br></br>
+<hr></hr>
+This section briefly describes the changes I made to each file, the reasoning behind each change and has links to the corresponding commits.
+<br></br>
 
-<br></br>
-<br></br>
-The next section briefly describes the changes I made to each file, the reasoning behind each change and has links to the corresponding commits.
-<br></br>
 <a id="html-files"></a>
 # Changes made to the HTML files   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
