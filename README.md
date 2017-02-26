@@ -41,11 +41,11 @@ The next section briefly describes the changes I made to each file, the reasonin
 ## docs/index.html
 * [removed link to google fonts](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/4e66acc5be123eab68b02f9ff4dce4396a520f39) to increase page load speed by reducing the number of critical assets.
     * Pagespeed screenshot
-        * [before](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
-        * [after](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/remove-fonts.png)
+        * [before](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/2fdd6f0e77c32f4b88035ae440d22a3d77802452/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
+        * [after](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/4424deeb5fa4e15af034deafa851ff6833cf1f96/docs/Results/Pagespeed%20tests/index/remove-fonts.png)
     * Timeline screenshot
-        * [before]()
-        * [after]()
+        * [before](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/4424deeb5fa4e15af034deafa851ff6833cf1f96/docs/Results/Timelines/index/screenshots/Initial.png)
+        * [after](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/4424deeb5fa4e15af034deafa851ff6833cf1f96/docs/Results/Timelines/index/screenshots/remove-fonts.png)
 * [added media print attribute](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b5166d91ed607a43e176f38cb4279960154fc04) to print.css so browser only loads this file @ print request.
     * Pagespeed screenshot
         * [before]()
