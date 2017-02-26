@@ -32,6 +32,7 @@ I modified the following files, follow the links to view changes.
     * [pagespeed scores](#final-pagespeed-scores)
 <br></br>
 <hr></hr>
+
 This section briefly describes the changes I made to each file, the reasoning behind each change and has links to the corresponding commits.
 <br></br>
 
