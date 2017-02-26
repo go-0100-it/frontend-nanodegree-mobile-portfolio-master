@@ -129,6 +129,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <br></br>
 <a id="css-files"></a>
+
 # Changes made to the CSS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
 
 <a id="docs/css/print.css"></a>
