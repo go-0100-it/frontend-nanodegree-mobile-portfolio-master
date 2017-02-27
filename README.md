@@ -195,7 +195,7 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
     * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/index/json%20data/Initial.json)*
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2F)*
-    * *[timeline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/index/screenshots/Final.png)*
+    * *[timeline (screenshot)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/index/screenshots/Final.png)*
     * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/index/json%20data/Final.json)*
     
 ### **`pizza.html`**
