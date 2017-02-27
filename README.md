@@ -212,11 +212,11 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
 * **Before** Optimization
     * *[pagespeed insights](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/2048/Initial.png)*
     * *[timeline (screenshot)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/screenshots/Initial.png)*
-    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Initial.png)*
+    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Initial.json)*
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fproject-2048.html&tab=desktop)*
     * *[timeline (screenshot)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/screenshots/Final.png)*
-    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Final.png)*
+    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Final.json)*
     
 ### **`project-mobile.html`**
 * **Before** Optimization
