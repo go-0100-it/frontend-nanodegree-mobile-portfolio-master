@@ -196,47 +196,47 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2F)*
     * *[timeline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/index/screenshots/Final.png)*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
     
 ### **`pizza.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fviews%2Fpizza.min.html&tab=desktop)*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
     
 ### **`project-2048.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
 * **After** Optimization
     * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fproject-2048.html&tab=desktop)*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
     
 ### **`project-mobile.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
 * **After** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
     
 ### **`project-webperf.html`**
 * **Before** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
 * **After** Optimization
     * *[pagespeed insights]()*
     * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()
+    * *[timeline (json data)]()*
 <hr></hr>
 
 ## 60 Frames Per Second(fps)
