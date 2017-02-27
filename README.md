@@ -62,16 +62,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * finally, [minified file]() to decrease size.
 <br></br>
-
-### `index.html` pagespeed test results before changes
-
-![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/initial/index-initial.png)
 <br></br>
-### `index.html` pagespeed test results after changes
-
-![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/index/after-html-mods.png)
- <br></br> 
- <br></br>
 <hr>
 <a id="docs/views/pizza.html"></a>
 
@@ -86,15 +77,6 @@ This section briefly describes the changes I made to each file, the reasoning be
 * [minified `bootstap.css` and `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/6318964afbc7a9b5730cee1ae3ce0c5a27acb319) to decrease file sizes.
 
 * finally, [minified `pizza.html`]() to decrease file size.
-<br></br>
-
-### `pizza.html` pagespeed test results before changes
-
-![Initial pagespeed results screenshot before changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/pizza/initial/initial.png)
-<br></br>
-### `pizza.html` pagespeed test results after changes
-
-![Initial pagespeed results screenshot after changes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/pizza/after-html-mods.png)
 <br></br>
 <br></br>
 <hr>
