@@ -1,7 +1,18 @@
+<!-- This code resembles the original code but has some key changes to reduce the number and size of the critical resources.  
+     All changes have been highlighted with comments explaining the changes and the reasoning behind the changes.  This file is a developer 
+     copy and is not intented for distribution.  The production copy of this file resides in the docs folder, the file path within this 
+     package is frontend-nanodegree-mobile-portfolio-master/docs/index.html.
+-->
+<!-- The production version of this file is minified as the final change to this file to ready it for distribution -->
 <!DOCTYPE html>
 <html class="html" lang="en">
 
 <head>
+    <!-- I removed this link for the distribution code as it's added benefit, in my opinion, isn't worth the added download cost
+     <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
+    -->
+    
+    <!-- I added the following preload links to kick off the download of these assets early.-->
     <link rel="preload" href="img/project-2048.jpg">
     <link rel="preload" href="img/project-webperf.jpg">
     <link rel="preload" href="img/project-mobile.jpg">
@@ -11,8 +22,18 @@
     <meta name="description" content=" FILL ME IN ">
     <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
+    
+    <!-- Here, I added the media attribute with the value print so the browser will only download this file if the user requests
+         print ultimately reducing the number and size of the critical resources. -->
     <link href="css/print.css" rel="stylesheet" media="print">
+    
+    <!-- Here, I added the media attribute with the value (max-width: 480px) so the browser will only download this file if 
+         the broswer screen size is less than 481px wide also reducing the number and size of the critical resources. -->
     <link href="css/small-screen.css" media="(max-width: 480px)">
+    
+    <!-- Here, I added the styles.css file inline to reduce the number of critical assets.  I removed styles not used by this page 
+         and refactored the css to reduce size. Also, I changed most of the css attributes to reference classes instead of 
+         tags as this is more efficient. --> 
     <style>
         .html {
             overflow-y: scroll;
@@ -20,6 +41,11 @@
             -ms-text-size-adjust: 100%;
             -webkit-text-size-adjust: none;
         }
+        /* Removed unused selectors and combined body properties.
+         *
+         * body { margin: 0; font-size: 14px; line-height: 1.61; font-weight: 400; }
+         * body, button, input, select, textarea { font-family: 'Open Sans', sans-serif; color: #333; }
+         */
         
         .body {
             margin: 0;
@@ -30,6 +56,12 @@
             font-family: 'Open Sans', sans-serif;
             color: #333;
         }
+        
+        /* Removed these redundant selectors and properties
+         * 
+         * b, strong { font-weight: bold; }
+         * pre, code { font-family: monospace, monospace; font-size: 1em; }
+         */
         
         a {
             color: #12C;
@@ -125,6 +157,17 @@
             font-style: italic;
         }
         
+        /* Moved this @media section to seperate file only loaded if browsers screen size is less than 481px.
+         *
+         *    Smartphones (portrait) 
+         *   @media only screen and (max-width: 480px) {
+         *      body { font-size: 12px;}
+         *      header p { padding-left: 4.5em;}
+         *  }
+         */
+        
+        
+        /* Added these #img selectors to set images as background images as setting images via css is much more efficient. */
         #img-1 {
             background-image: url("img/project-2048.jpg");
             height: 50px;
@@ -145,15 +188,10 @@
             height: 75px;
         }
     </style>
-    <script>
-        (function(w, g) {
-            w['GoogleAnalyticsObject'] = g;
-            w[g] = w[g] || function() {
-                (w[g].q = w[g].q || []).push(arguments)
-            };
-            w[g].l = 1 * new Date();
-        })(window, 'ga'); // Optional TODO: replace with your Google Analytics profile ID. ga('create', 'UA-XXXX-Y'); ga('send', 'pageview');
-    </script>
+    
+    <!-- I added the async attribute to load analytics.js asyncronously.  I didn't move these to the bottom by the body 
+         closing tag because these are loading asyncronously and moving them doesn't seem to be of any benefit.  I did, 
+         however move the inline script to just above the body closing tag. -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
     <script src="js/perfmatters.js" async></script>
 </head>
@@ -169,19 +207,31 @@
         <div class="content">
             <ul>
                 <li class="content-li">
+                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                         much more efficient. -->
                     <div class="li-img" id="img-1"></div><a href="project-2048.html">Build Your Own 2048!</a>
                     <p class="li-p">I made my own version of 2048. How cool is that!?</p>
                 </li>
                 <li class="content-li">
+                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                         much more efficient. -->
                     <div class="li-img" id="img-2"></div><a href="project-webperf.html">Website Performance Optimization</a>
                     <p class="li-p">Hey... this class looks familiar.</p>
                 </li>
                 <li class="content-li">
+                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                         much more efficient. -->
                     <div class="li-img" id="img-3"></div><a href="project-mobile.html">Mobile Web Development</a>
                     <p class="li-p">Making mobile apps isn't so hard after all.</p>
                 </li>
                 <li class="content-li">
+<<<<<<< HEAD
                     <div class="li-img" id="img-4"></div><a href="views/pizza.html">Cam's Pizzeria</a>
+=======
+                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                         much more efficient. -->
+                    <div class="li-img" id="img-4"></div><a href="views/pizza.min.html">Cam's Pizzeria</a>
+>>>>>>> 793f010494c46235ac6ad7ccbf46494a54341f3d
                     <p class="li-p">Who wants a performant pizza?</p>
                 </li>
             </ul>
@@ -190,6 +240,17 @@
             <p>&copy; Web Performance 2014 <span class="footer-span" id="crp-stats"></span> </p>
         </footer>
     </div>
+    
+    <!-- I moved this inline script down here just above the body closing tag. -->
+    <script>
+        (function(w, g) {
+            w['GoogleAnalyticsObject'] = g;
+            w[g] = w[g] || function() {
+                (w[g].q = w[g].q || []).push(arguments)
+            };
+            w[g].l = 1 * new Date();
+        })(window, 'ga'); // Optional TODO: replace with your Google Analytics profile ID. ga('create', 'UA-XXXX-Y'); ga('send', 'pageview');
+    </script>
 </body>
 
 </html>
