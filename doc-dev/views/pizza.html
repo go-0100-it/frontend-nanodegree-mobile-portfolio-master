@@ -1,9 +1,20 @@
+<!-- This code resembles the original code but has some key changes to reduce the number and size of the critical resources.  
+     All changes have been highlighted with comments explaining the changes and the reasoning behind each one.  This file is a developer 
+     copy and is not intented for distribution.  The production copy of this file resides in the docs folder within this 
+     package, file path is frontend-nanodegree-mobile-portfolio-master/docs/views/pizza.min.html.  -->
+
+<!-- The production version of this file is minified as the final change to this file to ready it for distribution -->
 <!DOCTYPE HTML>
 <html>
 
 <head>
+    <!-- I added the following preload links to kick off the download of these assets early.-->
     <link rel="preload" href="js/main.js">
     <link rel="preload" href="css/bootstrap-grid.css">
+
+    <!-- Here, I added the styles.css file inline to reduce the number of critical assets.  I removed styles not used by this page 
+         and refactored the css to reduce size. Also, I changed most of the css attributes to reference classes instead of 
+         tags as this is much more efficient. -->
     <style>
         * {
             -webkit-box-sizing: border-box;
@@ -11,17 +22,17 @@
             -box-sizing: border-box;
         }
         
-        body {
+        .body {
             font-family: "Trebuchet MS", Helvetica, sans-serif;
             background: black;
         }
         
-        input {
+        .input {
             background: grey;
             font-size: 18px;
         }
         
-        form {
+        .form {
             display: inline-block;
         }
         
@@ -32,7 +43,9 @@
         #pizzaSize {
             font-weight: 800;
         }
-        /** Added "will-change: left" to give the browser a heads-up that this attribute will be changing. By adding this the browser created new layer for each element with the "mover" class and allows the browser to only have to repaint the elements that have changed. */
+        /* Added "will-change: left" to give the browser a heads-up that this attribute will be changing. By adding this the browser 
+           created new layer for each element with the "mover" class and allows the browser to only have to repaint the elements that have changed.
+           This helps considerably with obtaining the desired 60fps */
         
         .mover {
             position: fixed;
@@ -59,7 +72,7 @@
     </style>
 </head>
 
-<body>
+<body class="body">
     <div class="container">
         <div id="header" class="row">
             <div class="col-md-6">
@@ -68,14 +81,14 @@
                         <h1>Cam's Pizzeria</h1>
                         <div class="row">
                             <div id="menu" class="col-md-12">
-                                <form action="#randomPizzas">
-                                    <input type="submit" value="Menu"> </form>
-                                <form action="#ingredients">
-                                    <input type="submit" value="Our Ingredients"> </form>
-                                <form action="#locations">
-                                    <input type="submit" value="Locations"> </form>
-                                <form action="#" onsubmit="alert('Thanks for clicking! This button doesn't do anything because this is a fake pizzeria :\)')">
-                                    <input type="submit" value="Contact Us"> </form>
+                                <form class="form" action="#randomPizzas">
+                                    <input class="input" type="submit" value="Menu"> </form>
+                                <form class="form" action="#ingredients">
+                                    <input class="input" type="submit" value="Our Ingredients"> </form>
+                                <form class="form" action="#locations">
+                                    <input class="input" type="submit" value="Locations"> </form>
+                                <form class="form" action="#" onsubmit="alert('Thanks for clicking! This button doesn't do anything because this is a fake pizzeria :\)')">
+                                    <input class="input" type="submit" value="Contact Us"> </form>
                             </div>
                         </div>
                     </div>
@@ -145,7 +158,7 @@
                     <div class="col-md-12"> <em>What size pizza would you like? Use the slider below to change pizza sizes.</em> </div>
                     <div id="pizzaSize" class="col-md-6">Medium</div>
                     <div class="col-md-12">
-                        <input id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)"> </div>
+                        <input class="input" id="sizeSlider" type="range" min="1" max="3" value="2" step="1" onchange="resizePizzas(this.value)"> </div>
                 </div>
                 <div id="randomPizzas" class="row">
                     <div id="pizza0" class="randomPizzaContainer" style="width:33.33%; height: 325px;">
