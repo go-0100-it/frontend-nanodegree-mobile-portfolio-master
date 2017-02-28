@@ -2,7 +2,7 @@
 # frontend-nanodegree-mobile-portfolio-master
 Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobile-portfolio).
 
-This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884).&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
+This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884 "Click to view website").&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
 
 As per the project outline I only needed to improve pagespeed score for `index.html` and achieve 60fps with `pizza.html` but, I thought, for practice I would improve page speed scores for all the pages in this site.  
 
