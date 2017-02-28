@@ -61,6 +61,8 @@ This section briefly describes the changes I made to each file, the reasoning be
 * added links to top of head to [preload image files](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/82230f27fe775a4e131b128636d8bb899e251243).&nbsp; This makes use browser idle time.
 
 * finally, [minified file]() to decrease size.
+
+[**VIEW DEVELOPER COPY OF FINAL REVISED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html)
 <br></br>
 <br></br>
 <hr>
