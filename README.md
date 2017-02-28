@@ -1,18 +1,18 @@
 <a id="top"></a>
 # frontend-nanodegree-mobile-portfolio-master
-Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobile-portfolio).
+Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobile-portfolio "Click to open repo page").
 
-This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884 "Click to view website").&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
+This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884 "Click to open website").&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
 
 As per the project outline I only needed to improve pagespeed score for `index.html` and achieve 60fps with `pizza.html` but, I thought, for practice I would improve page speed scores for all the pages in this site.  
 
 I modified the following files, follow the links to view changes.
 * [**HTML**](#html-files)
-    * [`docs/index.html`](#docs/index.html)
-    * [`docs/views/pizza.html`](#docs/views/pizza.html)
-    * [`docs/project-2048.html`](#docs/project-2048.html)
-    * [`docs/project-mobile.html`](#docs/project-mobile.html)
-    * [`docs/project-webperf.html`](#docs/project-webperf.html)
+    * [`docs/index.html`](#docs/index.html "Go to index.html section")
+    * [`docs/views/pizza.html`](#docs/views/pizza.html "Go to pizza.html section")
+    * [`docs/project-2048.html`](#docs/project-2048.html "Go to project-2048 section")
+    * [`docs/project-mobile.html`](#docs/project-mobile.html "Go to project-mobile section")
+    * [`docs/project-webperf.html`](#docs/project-webperf.html "go to project-webperf section")
 * [**CSS**](#css-files)
     * [`docs/css/print.css`](#docs/css/print.css)
     * [`docs/css/style.css`](#docs/css/style.css)
@@ -31,7 +31,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 
 <a id="html-files"></a>
-# Changes made to the HTML files   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
+# Changes made to the HTML files   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
 <a id="docs/index.html"></a>
 
@@ -114,7 +114,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <a id="css-files"></a>
 
-# Changes made to the CSS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
+# Changes made to the CSS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
 <a id="docs/css/print.css"></a>
 
@@ -160,7 +160,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <a id="js-files"></a>
 
-# Changes made to the JS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
+# Changes made to the JS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
 <a id="docs/js/perfmatters.js"></a>
 
@@ -182,7 +182,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <a id="final-results"></a>
 
-# My Final Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top)
+# My Final Results &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
 ## Pagespeed scores
 I managed to do quite well with the pagespeed scores for `index.html` at **95%-desktop**(*passing 9 of 10 tests*) and **93%-mobile**(*passing 9 of 10 tests*).&nbsp; The only thing keeping me from achieving 100% and passing all 10 tests is the fact I was unable to utilize browser caching.&nbsp; As far as I understand from my research is that github does not offer this feature when hosting your pages/site with them.&nbsp; Since I am using their services and have no control over the backend I was unable to achieve the oh so desirable 100% :smiley:
