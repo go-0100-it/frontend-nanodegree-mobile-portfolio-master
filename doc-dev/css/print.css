@@ -1,3 +1,6 @@
+/* The only change I made here was to minify this file for the production version which can be found in the docs folder in this 
+   package, the file path is frontend-nanodegree-mobile-portfolio-master/docs/css/print.min.css */
+
 @media print {
     * {
         background: transparent !important;
