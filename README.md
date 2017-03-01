@@ -64,6 +64,8 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -71,18 +73,20 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/views/pizza.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/pizza.html "View final version of pizza.html")
 
-* [inlined css from `style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/17cead1bc33fcd179e361132569e6e7da289998b) to decrease critical assets.
+* [inlined css from `style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/17cead1bc33fcd179e361132569e6e7da289998b "View commit for changes made") to decrease critical assets.
 
-* [moved `bootstrap.css` link](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/7ea9b897473a3b960823d47f075fd497f7e6469c) to just above body closing tag and [added preload](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/13c014422b43b9c5deecf4e6210e7d0839036738) just after head tag opening.
+* [moved `bootstrap.css` link](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/7ea9b897473a3b960823d47f075fd497f7e6469c "View commit for changes made") to just above body closing tag and [added preload](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/13c014422b43b9c5deecf4e6210e7d0839036738 "View commit for changes made") just after head tag opening.
 
 * added link to top of head section [preloading `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/1ad93946a398c39dc1c1c8f80cbcc0d9694eb0db#diff-11c9c8918fc38e223f20c608dd885d75).
 
-* [minified `bootstrap.css` and `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/6318964afbc7a9b5730cee1ae3ce0c5a27acb319) to decrease file sizes.
+* [minified `bootstrap.css` and `main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/6318964afbc7a9b5730cee1ae3ce0c5a27acb319 "View commit for changes made") to decrease file sizes.
 
-* finally, [minified `pizza.html`]() to decrease file size.
+* finally, [minified `pizza.html`]( "View commit for changes made") to decrease file size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/pizza.html "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -92,10 +96,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * 
 * 
-* finally, [minified file]() to decrease size.
+* finally, [minified file]( "View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-2048.html "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -105,10 +111,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * 
 * 
-* finally, [minified file]() to decrease size.
+* finally, [minified file]("View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-mobile.html "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -118,10 +126,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * 
 * 
-* finally, [minified file]() to decrease size.
+* finally, [minified file]("View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-webperf.html "View developer version of optimized code") 
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <a id="css-files"></a>
@@ -132,12 +142,14 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/css/print.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/css/print.css "View final version of print.css")
 
-* 
-* 
-* finally, [minified file]() to decrease size.
+* [added media print attribute](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b5166d91ed607a43e176f38cb4279960154fc04 "View commit for changes made") to `print.css` in `index.html` so the browser only loads this file @ print request.
+
+* finally, [minified file]( "View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/css/print.css "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -145,14 +157,20 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/css/style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/css/style.css "View final version of style.css")
 
-* [inlined style.css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b162585ce944eee45d1ccf2c05645263939443c) to head section of index.html file to prevent render blocking.
-* [added class attributes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/ac71d65e25e245c2ee2474656749f7589668fde0) to html elements and [modified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/559d16d0fd21539e21087b8f92dc5c2c570c7bc8) to reference classes instead of tags to improve render time.
-* [refactored and removed css styles](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/689c0c6a536943536f09fb785fef12b3fa61fd5d) from inlined style.css not pertinate to index.html to reduce file size.
-* moved small screen media css from style.css to a new file *small-screen.css* and [added media max-width attribute to link tag](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/22090fe4bd832fe426d81d33262230208528ef24) so browser only loads this if screen width is less than 481px, this improves above the fold load.
-* removed the list item img tags for index.html and replaced them with divs with ids for reference.&nbsp; [Added corresponding css attributes for background images](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222) to inlined css.&nbsp; This improves the above the fold load.
+* [inlined style.css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/8b162585ce944eee45d1ccf2c05645263939443c "View commit for changes made") to head section of index.html file to prevent render blocking.
+
+* [added class attributes](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/ac71d65e25e245c2ee2474656749f7589668fde0 "View commit for changes made") to html elements and [modified css](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/559d16d0fd21539e21087b8f92dc5c2c570c7bc8 "View commit for changes made") to reference classes instead of tags to improve render time.
+
+* [refactored and removed css styles](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/689c0c6a536943536f09fb785fef12b3fa61fd5d "View commit for changes made") from inlined style.css not pertinate to index.html to reduce file size.
+
+* moved small screen media css from style.css to a new file *small-screen.css* and [added media max-width attribute to link tag](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/22090fe4bd832fe426d81d33262230208528ef24 "View commit for changes made") so browser only loads this if screen width is less than 481px, this improves above the fold load.
+
+* removed the list item img tags for index.html and replaced them with divs with ids for reference.&nbsp; [Added corresponding css attributes for background images](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222 "View commit for changes made") to inlined css.&nbsp; This improves the above the fold load.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/css/style.css "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -162,10 +180,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * 
 * 
-* finally, [minified file]() to decrease size.
+* finally, [minified file]("View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -179,6 +199,8 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <a id="js-files"></a>
@@ -187,12 +209,14 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 <a id="docs/js/perfmatters.js"></a>
 
-## [`docs/js/perfmatters.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/js/perfmatters.js "View final version of perfmatters.js")
+## [`docs/js/perfmatters.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/js/perfmatters.min.js "View final version of perfmatters.js")
 
-* [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/41042db21a2300bc1261b5916a9ea258f9ba14c9) to decrease size.
+* [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/41042db21a2300bc1261b5916a9ea258f9ba14c9 "View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/js/perfmatters.js "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <hr>
@@ -202,10 +226,12 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * 
 * 
-* finally, [minified file]() to decrease size. 
+* finally, [minified file]("View commit for changes made") to decrease size. 
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code")
+
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
 <br></br>
 <a id="final-results"></a>
