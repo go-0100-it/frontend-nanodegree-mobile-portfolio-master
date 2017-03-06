@@ -1,6 +1,6 @@
 <!-- This code resembles the original code but has some key changes to reduce the number and size of the critical resources.  
-     All changes have been highlighted with comments explaining the changes and the reasoning behind the changes.  This file is a developer 
-     copy and is not intented for distribution.  The production copy of this file resides in the docs folder within this 
+     All changes have been highlighted with comments explaining the changes and the reasoning behind the changes.  This file is a developer copy and is 
+     not intended for distribution.  The production copy of this file resides in the docs folder within this 
      package the file path is frontend-nanodegree-mobile-portfolio-master/docs/index.html
 -->
 <!-- The production version of this file is minified as the final change to this file to ready it for distribution -->
@@ -8,6 +8,10 @@
 <html class="html" lang="en">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" FILL ME IN ">
+    <meta name="author" content=" FILL ME IN ">
     <!-- I removed this link for the distribution code as it's added benefit, in my opinion, isn't worth the added download cost
      <link href="//fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet"> 
     -->
@@ -17,10 +21,6 @@
     <link rel="preload" href="img/project-webperf.jpg">
     <link rel="preload" href="img/project-mobile.jpg">
     <link rel="preload" href="img/pizzeria.jpg">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content=" FILL ME IN ">
-    <meta name="author" content=" FILL ME IN ">
     <title>Cameron Pittman: Portfolio</title>
 
     <!-- Here, I added the media attribute with the value print so the browser will only download this file if the user requests
@@ -29,7 +29,7 @@
 
     <!-- Here, I added the media attribute with the value (max-width: 480px) so the browser will only download this file if 
          the broswer screen size is less than 481px wide also reducing the number and size of the critical resources. -->
-    <link href="css/small-screen.css" media="(max-width: 480px)">
+    <link href="css/small-screen.css" rel="stylesheet" media="(max-width: 480px)">
 
     <!-- Here, I added the styles.css file inline to reduce the number of critical assets.  I removed styles not used by this page 
          and refactored the css to reduce size. Also, I changed most of the css attributes to reference classes instead of 
@@ -186,7 +186,7 @@
         }
     </style>
 
-    <!-- I added the async attribute to load analytics.js asyncronously.  I didn't move these to the bottom by the body 
+    <!-- I added the async attribute to load analytics.js asynchronously.  I didn't move these to the bottom by the body 
          closing tag because these are loading asyncronously and moving them doesn't seem to be of any benefit.  I did, 
          however move the inline script to just above the body closing tag. -->
     <script src="https://www.google-analytics.com/analytics.js" async></script>
@@ -195,7 +195,7 @@
 
 <body class="body">
     <header class="header">
-        <a href="/"><img class="header-img" src="img/profilepic.jpg"> </a>
+        <a href="/"><img class="header-img" src="img/profilepic.jpg" alt="Profile pic"> </a>
         <p class="header-p">Cameron Pittman <br><span class="header-p-span">Course Developer</span> </p>
     </header>
     <div class="container">
@@ -204,31 +204,29 @@
         <div class="content">
             <ul>
                 <li class="content-li">
-                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                    <!-- I removed the img tag and replaced it with a div with a css background image.  Using css to load images is
                          much more efficient. -->
                     <div class="li-img" id="img-1"></div><a href="project-2048.html">Build Your Own 2048!</a>
                     <p class="li-p">I made my own version of 2048. How cool is that!?</p>
                 </li>
                 <li class="content-li">
-                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                    <!-- I removed the img tag and replaced it with a div with a css background image.  Using css to load images is
                          much more efficient. -->
                     <div class="li-img" id="img-2"></div><a href="project-webperf.html">Website Performance Optimization</a>
                     <p class="li-p">Hey... this class looks familiar.</p>
                 </li>
                 <li class="content-li">
-                    <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                    <!-- I removed the img tag and replaced it with a div with a css background image.  Using css to load images is
                          much more efficient. -->
                     <div class="li-img" id="img-3"></div><a href="project-mobile.html">Mobile Web Development</a>
                     <p class="li-p">Making mobile apps isn't so hard after all.</p>
                 </li>
                 <li class="content-li">
-                    <<<<<<< HEAD <div class="li-img" id="img-4">
-        </div><a href="views/pizza.html">Cam's Pizzeria</a> =======
-        <!-- I removed the img tag and relaced it with a div with a css background image.  Using css to load images is
+                    <!-- I removed the img tag and replaced it with a div with a css background image.  Using css to load images is 
                          much more efficient. -->
-        <div class="li-img" id="img-4"></div><a href="views/pizza.min.html">Cam's Pizzeria</a> >>>>>>> 793f010494c46235ac6ad7ccbf46494a54341f3d
-        <p class="li-p">Who wants a performant pizza?</p>
-        </li>
+                    <div class="li-img" id="img-4"></div><a href="views/pizza.min.html">Cam's Pizzeria</a>
+                    <p class="li-p">Who wants a performant pizza?</p>
+               </li>
         </ul>
     </div>
     <footer class="footer">
