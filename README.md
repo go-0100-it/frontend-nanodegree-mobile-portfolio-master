@@ -10,14 +10,9 @@ I modified the following files, follow the links to view changes.
 * [**HTML**](#html-files "Go to HTML section")
     * [`docs/index.html`](#docs/index.html "Go to index.html section")
     * [`docs/views/pizza.html`](#docs/views/pizza.html "Go to pizza.html section")
-    * [`docs/project-2048.html`](#docs/project-2048.html "Go to project-2048 section")
-    * [`docs/project-mobile.html`](#docs/project-mobile.html "Go to project-mobile section")
-    * [`docs/project-webperf.html`](#docs/project-webperf.html "go to project-webperf section")
 * [**CSS**](#css-files "Go to CSS section")
     * [`docs/css/print.css`](#docs/css/print.css "Go to print.css section")
     * [`docs/css/style.css`](#docs/css/style.css "Go to style.css section")
-    * [`docs/views/css/bootstrap-grid.css`](#docs/views/css/bootstrap-grid.css "Go to bootstrap-grid.css section")
-    * [`docs/views/css/style.css`](#docs/views/css/style.css "Go to style.css section")
 * [**JS**](#js-files "Go to JS section")
     * [`docs/js/perfmatters.js`](#docs/js/perfmatters.js "Go to perfmatters.js section")
     * [`docs/views/js/main.js`](#docs/views/js/main.js "Go to main.js section")
@@ -90,50 +85,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 <br></br>
 <br></br>
 <hr>
-<a id="docs/project-2048.html"></a>
 
-## [`docs/project-2048.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-2048.html "View final version of project-2048.html")
-
-* 
-* 
-* finally, [minified file]( "View commit for changes made") to decrease size.
-<br></br>
-
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-2048.html "View developer version of optimized code")
-
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
-<br></br>
-<br></br>
-<hr>
-<a id="docs/project-mobile.html"></a>
-
-## [`docs/project-mobile.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-mobile.html "View final version of project-mobile.html")
-
-* 
-* 
-* finally, [minified file]("View commit for changes made") to decrease size.
-<br></br>
-
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-mobile.html "View developer version of optimized code")
-
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
-<br></br>
-<br></br>
-<hr>
-<a id="docs/project-webperf.html"></a>
-
-## [`docs/project-webperf.html`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/project-webperf.html "View final version of project-webperf.html")
-
-* 
-* 
-* finally, [minified file]("View commit for changes made") to decrease size.
-<br></br>
-
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/project-webperf.html "View developer version of optimized code") 
-
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
-<br></br>
-<br></br>
 <a id="css-files"></a>
 
 # Changes made to the CSS files &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
@@ -178,9 +130,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/views/css/bootstrap-grid.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/bootstrap-grid.css "View final version of bootstrap-gridndex.css")
 
-* 
-* 
-* finally, [minified file]("View commit for changes made") to decrease size.
+* [minified file]("View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code")
@@ -193,9 +143,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/views/css/style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/style.css "View final version of style.css")
 
-* 
-* 
-* 
+* [minified file]("View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code")
@@ -264,35 +212,6 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
     * *[timeline (screenshot)]()*
     * *[timeline (json data)]()*
     
-### **`project-2048.html`**
-* **Before** Optimization
-    * *[pagespeed insights](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Pagespeed%20tests/2048/Initial.png)*
-    * *[timeline (screenshot)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/screenshots/Initial.png)*
-    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Initial.json)*
-* **After** Optimization
-    * *[pagespeed insights](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2Fproject-2048.html&tab=desktop)*
-    * *[timeline (screenshot)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/screenshots/Final.png)*
-    * *[timeline (json data)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Results/Timelines/2048/json%20data/Final.json)*
-    
-### **`project-mobile.html`**
-* **Before** Optimization
-    * *[pagespeed insights]()*
-    * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()*
-* **After** Optimization
-    * *[pagespeed insights]()*
-    * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()*
-    
-### **`project-webperf.html`**
-* **Before** Optimization
-    * *[pagespeed insights]()*
-    * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()*
-* **After** Optimization
-    * *[pagespeed insights]()*
-    * *[timeline (screenshot)]()*
-    * *[timeline (json data)]()*
 <hr></hr>
 
 ## 60 Frames Per Second(fps)
