@@ -128,9 +128,9 @@ This section briefly describes the changes I made to each file, the reasoning be
 <hr>
 <a id="docs/views/css/bootstrap-grid.css"></a>
 
-## [`docs/views/css/bootstrap-grid.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/bootstrap-grid.css "View final version of bootstrap-gridndex.css")
+## [`docs/views/css/bootstrap-grid.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/bootstrap-grid.css "View final version of bootstrap-grid.css")
 
-* [minified file]("View commit for changes made") to decrease size.
+* minified file to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code")
@@ -143,7 +143,8 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/views/css/style.css`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/css/style.css "View final version of style.css")
 
-* [minified file]("View commit for changes made") to decrease size.
+* added  ` will-change:left;` and `backface-visibility:hidden;` to allow the browser the option to render the elements on a different layer.
+* [minified file]( "View commit for changes made") to decrease size.
 <br></br>
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code")
@@ -172,12 +173,22 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 ## [`docs/views/js/main.js`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/views/js/main.js "View final version of main.js")
 
-* 
-* 
-* finally, [minified file]("View commit for changes made") to decrease size. 
+* [removed the function `determineDx()`](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/663648e4965a4eecbb25b32cdd00ac3dbc8c8494#diff-535a60179c1ea8a9fb9dfafd7896fb9c "View commit for changes made") as it wasn't necessary or all that useful.
+
+* [replaced](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/5872c8f8986eb9b0ffc40595fad0480ebc0ef39b "View commit for changes made") all `querySelector()` function calls with `getElementsById()`
+
+* [replaced](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/663648e4965a4eecbb25b32cdd00ac3dbc8c8494 "View commit for changes made") all `querySelectorAll()` function calls with `getElementsByClassName()`
+
+* [Pulled the items array value assignment](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/dd3689eb0b43b971dc7a4fe3177bc4c0eee74b81#L512 "View commit for changes made") from the `updatePositions()` function so it is only set once upon page load.
+
+* Removed some work done with-in loops where it wasn't necessary to do the work at every iteration of the loop.
+
+* [Assigned array length to variables](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/dd3689eb0b43b971dc7a4fe3177bc4c0eee74b81 "View commit for changes made") and passed to for loops so the browser isn't calculating this at every iteration of the loop.
+
+* finally, [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/df3a4aa8f7c2d6fb4605ef1fc4a33146c07a16cf "View commit for changes made") to decrease size. 
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code") - Commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
