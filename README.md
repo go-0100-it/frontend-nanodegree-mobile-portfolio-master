@@ -60,7 +60,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f10e2a687f440dbb9e4e72111c65632329eaf359/index.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f10e2a687f440dbb9e4e72111c65632329eaf359/index.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -81,7 +81,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/pizza.html "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/3cb2c3a24e9595f4edbce11f4e5c3d878880ea00/views/pizza.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/3cb2c3a24e9595f4edbce11f4e5c3d878880ea00/views/pizza.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -101,7 +101,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/20c6e1c72bcaa10cd33487bf9b4f56ebf9d5ee09/doc-dev/css/print.css "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/css/print.css "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/css/print.css "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -122,7 +122,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/views/css/style.css "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/views/css/style.css "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -135,7 +135,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -149,7 +149,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <a id="js-files"></a>
@@ -165,7 +165,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/js/perfmatters.js "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <hr>
@@ -190,7 +190,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 [**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code") - code commented with changes made
 
-[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
+[**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code") - Udacity's repo
 <br></br>
 <br></br>
 <a id="final-results"></a>
