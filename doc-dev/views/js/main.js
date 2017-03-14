@@ -429,7 +429,7 @@ var resizePizzas = function(size) {
     /* **********************************************************************************************
      *                                                                                              *
      *  I removed the determineDx function here, it was doing some crazy unnecessary work.         *
-     *  I combined the useful parts with the changePizzaSIzes function.                             *
+     *  I combined the useful parts with the changePizzaSizes function.                             *
      *                                                                                              *
      ************************************************************************************************/
 
@@ -496,11 +496,11 @@ function updatePositions() {
 
     /***********************************************************************************************
      * Pulled out this query to the document and set the value to a variable so we only have to 
-     * do this once, no on eveery iteration of the loop.*/
+     * do this once, not on every iteration of the loop.*/
     scrollPos = document.body.scrollTop / 1250;
 
     /***********************************************************************************************
-     * Also, setting a variable with the array length so the browser only have to calculate this once,
+     * Also, setting a variable with the array length so the browser will only have to calculate this once,
      * not on every iteration of the loop.*/
     var len = items.length;
     for (var i = 0; i < len; i++) {
@@ -525,8 +525,8 @@ document.addEventListener('DOMContentLoaded', function() {
     var cols = 8;
     var s = 256;
     /*****************************************************************************************************
-     * Here I reduced the number of of iterations for 200 down to 32. Not sure how big the display would
-     * need to be to show all 200 but, seem like over kill to me.... ;)*/
+     * Here I reduced the number of iterations for 200 down to 32. Not sure how big the display would
+     * have to be to show all 200 but, seem like over kill to me.... ;)*/
     for (var i = 0; i < 32; i++) {
         var elem = document.createElement('img');
         elem.className = 'mover';
