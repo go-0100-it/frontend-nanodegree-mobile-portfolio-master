@@ -47,7 +47,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 
 * downloaded and added `project-2048.jpg`, `project-mobile.jpg`, and `project-webperf.jpg` locally so I could optimize them.
 
-* optimized images to drasticly reduce file size, I used the supplied images optimized by the pagespeed insights page.
+* optimized images to drasticly reduce file size, I used the optimized images supplied by the [pagespeed insights page](https://developers.google.com/speed/pagespeed/insights "Link to pagespeed insights page") after running the pagespeed test.
     
 * [removed the list item img tags](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222 "View commit for changes made") and replaced them with divs with ids for reference.&nbsp; Added corresponding css attributes for background images to inlined css.&nbsp; This improves the above the fold load.
     
