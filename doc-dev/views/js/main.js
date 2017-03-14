@@ -540,8 +540,8 @@ document.addEventListener('DOMContentLoaded', function() {
         document.getElementById("movingPizzas1").appendChild(elem);
     }
     /* ************************************************************************************************************
-    * Setting the items array variable here just once after loading as opposed to everytime updatePositions. There
-    * is no need to repeatedly collect this data. 
+    * Setting the items array variable here just once after loading as opposed to everytime updatePositions is called.
+    * There is no need to repeatedly collect this data. 
     * Also, I replaced the querySelectorAll function with getElementsByClassName as this is a more efficient query.*/
     items = document.getElementsByClassName('mover');
     updatePositions();
