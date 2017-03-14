@@ -58,7 +58,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * finally, [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/0babffb47e81a5e9f414bac067274e0b421d860f "View commit for changes made") to decrease size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f10e2a687f440dbb9e4e72111c65632329eaf359/index.html "View original version of code")
 <br></br>
@@ -79,7 +79,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * finally, [minified `pizza.html`]( "View commit for changes made") to decrease file size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/pizza.html "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/pizza.html "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/3cb2c3a24e9595f4edbce11f4e5c3d878880ea00/views/pizza.html "View original version of code")
 <br></br>
@@ -99,7 +99,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * finally, minified file to decrease size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/20c6e1c72bcaa10cd33487bf9b4f56ebf9d5ee09/doc-dev/css/print.css "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/20c6e1c72bcaa10cd33487bf9b4f56ebf9d5ee09/doc-dev/css/print.css "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/css/print.css "View original version of code")
 <br></br>
@@ -120,7 +120,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * removed the list item img tags for index.html and replaced them with divs with ids for reference.&nbsp; [Added corresponding css attributes for background images](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/25961ba23b95a10309cb00c7a60acfed768db222 "View commit for changes made") to inlined css.&nbsp; This improves the above the fold load.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/f3f05b14be42f78e022e76c87a53f285bf367fbb/doc-dev/index.html "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/udacity/frontend-nanodegree-mobile-portfolio/blob/f30680be45f3334287f39461fe7e942f163e17e5/views/css/style.css "View original version of code")
 <br></br>
@@ -133,7 +133,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * minified file to decrease size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/bootstrap-grid.css "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
@@ -147,7 +147,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * [minified file]( "View commit for changes made") to decrease size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/css/style.css "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
@@ -163,7 +163,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/41042db21a2300bc1261b5916a9ea258f9ba14c9 "View commit for changes made") to decrease size.
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/js/perfmatters.js "View developer version of optimized code")
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/js/perfmatters.js "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
@@ -188,7 +188,7 @@ This section briefly describes the changes I made to each file, the reasoning be
 * finally, [minified file](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/commit/df3a4aa8f7c2d6fb4605ef1fc4a33146c07a16cf "View commit for changes made") to decrease size. 
 <br></br>
 
-[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code") - Commented with changes made
+[**VIEW DEVELOPER COPY OF OPTIMIZED CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/views/js/main.js "View developer version of optimized code") - code commented with changes made
 
 [**VIEW ORIGINAL CODE**](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/doc-dev/index.html "View original version of code")
 <br></br>
