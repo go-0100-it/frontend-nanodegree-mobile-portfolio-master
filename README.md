@@ -216,9 +216,7 @@ I was able to achieve what I believe to be satisfactory results. Even though all
 ### **`pizza.html`**
 * [**Before**](http://cameronwp.github.io/udportfolio/views/pizza.html "View page before optimizations were implemented") Optimization
     
-* [**After**]( "View page after optimizations were implemented") Optimization
-
-### View optimized pages
+* [**After**](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.min.html "View page after optimizations were implemented") Optimization
 
 * [Final Optimized site](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/)
 
