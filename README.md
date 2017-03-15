@@ -202,9 +202,9 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
 ### Final pagespeed scores &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
 ### **`index.html`**
-* [**Before** Optimization]()
+* [**Before**](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fcameronwp.github.io%2Fudportfolio%2Findex.html&tab=mobile "Pagespeed insights score before optimization") Optimization
     
-* [**After** Optimization
+* [**After**](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2F&tab=mobile "Pagespeed insights score after optimization") Optimization
     
     
 <hr></hr>
@@ -218,5 +218,5 @@ I was able to achieve what I believe to be satisfactory results. Even though all
     
 * [**After**](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.min.html "View page after optimizations were implemented") Optimization
 
-* [Final Optimized site](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/)
+### [Final Optimized site](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/)
 
