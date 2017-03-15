@@ -507,7 +507,7 @@ function updatePositions() {
         var phase = Math.sin(scrollPos + (i % 5));
         items[i].style.left = items[i].basicLeft + 100 * phase + 'px';
     }
-
+    window.requestAnimationFrame(updatePositions);
     window.performance.mark("mark_end_frame");
     window.performance.measure("measure_frame_duration", "mark_start_frame", "mark_end_frame");
     if (frame % 10 === 0) {
@@ -544,5 +544,5 @@ document.addEventListener('DOMContentLoaded', function() {
     * There is no need to repeatedly collect this data. 
     * Also, I replaced the querySelectorAll function with getElementsByClassName as this is a more efficient query.*/
     items = document.getElementsByClassName('mover');
-    updatePositions();
+    window.requestAnimationFrame(updatePositions);
 });
