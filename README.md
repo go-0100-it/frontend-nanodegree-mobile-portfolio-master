@@ -6,6 +6,11 @@ This website was created by Cameron Pittman as a final project for Udacity's cou
 
 As per the project outline I needed to improve pagespeed score for `index.html` and achieve 60fps with `pizza.html` Below you will find a list of all the files I changed and the details of the changes I made.
 
+## To run this application
+
+1. Click the !['"Clone or download" button image'](images/clone-download-button.png)
+
+
 I modified the following files, follow the links to view changes.
 * [**HTML**](#html-files "Go to HTML section")
     * [`docs/index.html`](#docs/index.html "Go to index.html section")
