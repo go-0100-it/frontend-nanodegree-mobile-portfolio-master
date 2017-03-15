@@ -4,11 +4,7 @@ Cloned from Udacity's [repo](https://github.com/udacity/frontend-nanodegree-mobi
 
 This website was created by Cameron Pittman as a final project for Udacity's course [*__Website Performance Optimization__*](https://www.udacity.com/course/website-performance-optimization--ud884 "Click to open website").&nbsp; It was my task to optimize this site to meet the requirements explained in the [project outline](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/blob/master/docs/Project%20outline.md).
 
-As per the project outline, I needed to improve the pagespeed score of the `index.html` page and achieve 60fps with the `pizza.html` page. Below you will find a list of all the files I changed, details of the changes I made and the corresponding results.
-
-## To run this application
-
-1. Click the !['"Clone or download" button image'](images/clone-download-button.png)
+As per the project outline, I needed to improve the pagespeed score of the `index.html` page and achieve 60fps with the `pizza.html` page. Below you will find a list of all the files I changed, details of the changes I made and the corresponding results. To get and run this application see [here](#run-application "Go to run application section").
 
 
 I modified the following files, follow the links to view changes.
@@ -23,6 +19,7 @@ I modified the following files, follow the links to view changes.
     * [`docs/views/js/main.js`](#docs/views/js/main.js "Go to main.js section")
 * [**FINAL RESULTS**](#final-results "Go to RESULTS section")
     * [pagespeed scores](#final-pagespeed-scores "Go to pagespeed scores section")
+
 <br></br>
 
 <hr></hr>
@@ -211,7 +208,7 @@ I managed to do quite well with the pagespeed scores for `index.html` at **95%-d
     
 * [**After**](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fgo-0100-it.github.io%2Ffrontend-nanodegree-mobile-portfolio-master%2F&tab=mobile "Pagespeed insights score after optimization") Optimization
     
-    
+ <br></br>   
 <hr></hr>
 
 ## 60 Frames Per Second(fps) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
@@ -223,5 +220,22 @@ I was able to achieve what I believe to be satisfactory results. Even though all
     
 * [**After**](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/views/pizza.min.html "View page after optimizations were implemented") Optimization
 
-### [Final Optimized site](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/)
+
+<br></br>
+<hr></hr>
+
+<a id="run-application"></a>
+
+## To run this application &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
+
+1. On the [main repository page](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master "Go to main repository page") click &nbsp;![Clone or download" button image](images/clone-download-btn.png)&nbsp; and download the project zip file or you can just click this button &nbsp;[![Download button image](images/download-btn.png)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/archive/master.zip "Download project .zip file")&nbsp; to download the zipped files to your computer.
+
+2. Unzip the file.
+
+3. Browse the project to locate the `index.html` file.
+
+4. Open `index.html` in the browser of your choice.
+
+### Or you can view the [**Final Optimized site**](https://go-0100-it.github.io/frontend-nanodegree-mobile-portfolio-master/).
+<br></br>
 
