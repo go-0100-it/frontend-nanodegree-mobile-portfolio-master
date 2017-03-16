@@ -233,7 +233,7 @@ I was able to achieve what I believe to be satisfactory results. Even though all
 2. Unzip the file.
 
 3. Browse to the docs folder located at<br></br> 
-`frontend-nanodegree-mobile-portfolio-master/tree/master/docsfrontend-nanodegree-mobile-portfolio-master/tree/master/docs`<br></br> 
+`frontend-nanodegree-mobile-portfolio-master/frontend-nanodegree-mobile-portfolio-master/docs`<br></br> 
 and locate the `index.html` file.
 
 4. Open `index.html` in the browser of your choice.
