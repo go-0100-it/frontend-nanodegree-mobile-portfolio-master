@@ -228,7 +228,7 @@ I was able to achieve what I believe to be satisfactory results. Even though all
 
 ## To run this application &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [` ^ `](#top "Go to top of page")
 
-1. On the [main repository page](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master "Go to main repository page") click &nbsp;![Clone or download" button image](images/clone-download-btn.png)&nbsp; and download the project zip file or you can just click this button &nbsp;[![Download button image](images/download-btn.png)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/archive/master.zip "Download project .zip file")&nbsp; to download the zipped files to your computer.
+1. On the [main repository page](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master "Go to main repository page") click &nbsp;![Clone or download button image](images/clone-download-btn.png)&nbsp; and download the project zip file or you can just click this button &nbsp;[![Download button image](images/download-btn.png)](https://github.com/go-0100-it/frontend-nanodegree-mobile-portfolio-master/archive/master.zip "Download project .zip file")&nbsp; to download the zipped files to your computer.
 
 2. Unzip the file.
 
