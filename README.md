@@ -234,7 +234,7 @@ I was able to achieve what I believe to be satisfactory results. Even though all
 
 3. Browse to the docs folder located at<br></br> 
 `frontend-nanodegree-mobile-portfolio-master/tree/master/docsfrontend-nanodegree-mobile-portfolio-master/tree/master/docs`<br></br> 
-locate the `index.html` file.
+and locate the `index.html` file.
 
 4. Open `index.html` in the browser of your choice.
 
